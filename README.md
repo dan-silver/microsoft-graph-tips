@@ -8,7 +8,7 @@ https://graph.microsoft.com/beta/me/people?$search=dansil
 
 ## OData
 ### Enums can be sent by name or value
-For example, the calendar resource has a color property:
+For example, the calendar resource has a [color property](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/calendar#properties):
 > Specifies the color theme to distinguish the calendar from other calendars in a UI. The property values are: LightBlue=0, LightGreen=1, LightOrange=2, LightGray=3, LightYellow=4, LightTeal=5, LightPink=6, LightBrown=7, LightRed=8, MaxColor=9, Auto=-1
 
 If sending the numeric value, be sure to wrap it in quotes as a string.
