@@ -14,3 +14,16 @@ For example, the calendar resource has a [color property](https://graph.microsof
 > Specifies the color theme to distinguish the calendar from other calendars in a UI. The property values are: LightBlue=0, LightGreen=1, LightOrange=2, LightGray=3, LightYellow=4, LightTeal=5, LightPink=6, LightBrown=7, LightRed=8, MaxColor=9, Auto=-1
 
 If sending the numeric value, be sure to wrap it in quotes as a string.
+```javascript
+// valid
+{
+  "color": "LightGreen",
+  "name": "My Calendar"
+}
+// also valid and identical to above
+{
+  "color": "1",
+  "name": "My Calendar"
+}
+
+```
