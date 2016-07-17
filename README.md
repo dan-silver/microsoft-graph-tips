@@ -1,3 +1,7 @@
+# Microsoft Graph tips
+Feel free to open a pull request to add a tip or trick to this list.
+
+
 ## Graph Query Examples
 ### Search for users in multiple properties (name, email, alias, etc.)
 https://graph.microsoft.com/beta/me/people?$search=dansil
