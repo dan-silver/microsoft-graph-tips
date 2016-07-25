@@ -11,6 +11,8 @@ https://graph.microsoft.com/beta/me/people?$search=satya
 #### V2 auth Postman collection
 [![Run in Postman](https://raw.githubusercontent.com/Azure/azure-content/master/articles/active-directory/media/active-directory-v2-protocols-oauth-code/runInPostman.png)](https://app.getpostman.com/run-collection/8f5715ec514865a07e6a)
 
+#### Shorten Scope Lists
+When sending a list of scopes in V2 Auth, you don't need the URL prefix like `https://graph.microsoft.com/`. Instead of sending `https://graph.microsoft.com/mail.read`, just send `mail.read` or `Calendars.ReadWrite`.
 
 ## OData
 #### Enums can be sent by name or value
