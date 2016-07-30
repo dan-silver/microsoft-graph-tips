@@ -36,3 +36,9 @@ https://graph.microsoft.com/beta/me/people?$search=satya
 #### List users and expand manager object
 https://graph.microsoft.com/beta/users?$expand=manager
 
+
+
+## Todo
+- [ ] Add more query examples
+- [ ] Check if $select can be used in $expand to limit response size
+- [ ] Add dates section talking about DateTimeTimeZone and DateTimeOffset
