@@ -6,11 +6,14 @@ Feel free to open a pull request to add a tip or trick to this list.
 #### Search for users in multiple properties (name, email, etc.)
 https://graph.microsoft.com/beta/me/people?$search=satya
 
+#### List users and expand manager object
+https://graph.microsoft.com/beta/users?$expand=manager
 
 ## Authentication
 #### V2 auth Postman collection
 [![Run in Postman](https://raw.githubusercontent.com/Azure/azure-content/master/articles/active-directory/media/active-directory-v2-protocols-oauth-code/runInPostman.png)](https://app.getpostman.com/run-collection/8f5715ec514865a07e6a)
 
+You don't even need a server running for this to work. If your redirect URL is localhost:3000 then just copy the code from the URL in your browser even though it won't render a page.
 #### Shorten Scope Lists
 When sending a list of scopes in V2 Auth, you don't need the URL prefix like `https://graph.microsoft.com/`. Instead of sending `https://graph.microsoft.com/mail.read`, just send `mail.read` or `Calendars.ReadWrite`.
 
