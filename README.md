@@ -1,13 +1,6 @@
-# Microsoft Graph tips
+# Microsoft Graph Tips
 Feel free to open a pull request to add a tip or trick to this list.
 
-
-## Query Examples
-#### Search for users in multiple properties (name, email, etc.)
-https://graph.microsoft.com/beta/me/people?$search=satya
-
-#### List users and expand manager object
-https://graph.microsoft.com/beta/users?$expand=manager
 
 ## Authentication
 #### V2 auth Postman collection
@@ -36,3 +29,10 @@ If sending the numeric value, be sure to wrap it in quotes as a string.
 }
 
 ```
+## Query Examples
+#### Search for users in multiple properties (name, email, etc.)
+https://graph.microsoft.com/beta/me/people?$search=satya
+
+#### List users and expand manager object
+https://graph.microsoft.com/beta/users?$expand=manager
+
