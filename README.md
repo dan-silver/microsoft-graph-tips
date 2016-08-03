@@ -42,6 +42,9 @@ https://graph.microsoft.com/v1.0/me/messages?$expand=attachments($select=name)
 #### Get names of drive items in root and thier permissions ($expand supports comma separated names)
 https://graph.microsoft.com/v1.0/me/drive/root?$expand=children($select=name),permissions
 
+#### Search OneDrive for Word documents
+https://graph.microsoft.com/v1.0/me/drive/root/search(q='.docx')
+
 ## Todo
 - [x] Add more query examples
 - [x] Check if $select can be used in $expand to limit response size
