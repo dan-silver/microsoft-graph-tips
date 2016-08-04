@@ -45,6 +45,12 @@ https://graph.microsoft.com/v1.0/me/drive/root?$expand=children($select=name),pe
 #### Search OneDrive for Word documents
 https://graph.microsoft.com/v1.0/me/drive/root/search(q='.docx')
 
+
+## Graph explorer
+The graph explorer is open source and hosted on github at https://github.com/yiil/apiExplorer.
+You can locally host this and supply your own clientId to have a postman like experience on the Graph.
+Swap the clientId out at https://github.com/yiil/apiExplorer/blob/master/src/api-explorer-init.js#L16
+
 ## Todo
 - [x] Add more query examples
 - [x] Check if $select can be used in $expand to limit response size
