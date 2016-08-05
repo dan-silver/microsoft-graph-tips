@@ -7,8 +7,11 @@ Feel free to open a pull request to add a tip or trick to this list.
 [![Run in Postman](https://raw.githubusercontent.com/Azure/azure-content/master/articles/active-directory/media/active-directory-v2-protocols-oauth-code/runInPostman.png)](https://app.getpostman.com/run-collection/8f5715ec514865a07e6a)
 
 You don't even need a server running for this to work. It will redirect you to a broken URL, but you can still copy the `code` from the URL in your browser.
-#### Shorten Scope Lists
+#### Shorter scope lists
 When sending a list of scopes in V2 Auth, you don't need the URL prefix like `https://graph.microsoft.com/`. Instead of sending `https://graph.microsoft.com/mail.read`, just send `mail.read` or `Calendars.ReadWrite`.
+
+#### Decoding access tokens
+You can decode JWT access tokens from the graph using tools like https://jwt.io/ .  It will show info like appid, name, onprem_sid, and scopes.
 
 ## OData
 #### Enums can be sent by name or value
