@@ -13,6 +13,13 @@ When sending a list of scopes in V2 Auth, you don't need the URL prefix like `ht
 #### Decoding access tokens
 You can decode JWT access tokens from the graph using tools like https://jwt.io/ .  It will show info like appid, name, onprem_sid, and scopes.
 
+#### Allow logins from organizations, consumers or both
+https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize
+* tenant=common -> all account types
+* tenant=organizations -> corp accounts only
+* tenant=consumers -> personal accounts only
+* tenant=tenantId -> specific company accounts
+
 ## OData
 #### Enums can be sent by name or value
 For example, the calendar resource has a [color property](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/calendar#properties):
