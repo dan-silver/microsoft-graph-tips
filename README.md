@@ -41,7 +41,7 @@ If sending the numeric value, be sure to wrap it in quotes as a string.
 
 ```
 #### Maximum value for $top is not the default value
-The maximum appears to be different depending on the endpoint. For /users, the maximum value appears to be 999 even though the default is 100.
+The maximum appears to be different depending on the endpoint. For /users, the maximum value is 999 and the default is 100 users per page.
 
 
 ## Query Examples
