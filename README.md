@@ -48,6 +48,9 @@ The maximum appears to be different depending on the endpoint. For /users, the m
 #### Search for users in multiple properties (name, email, etc.)
 https://graph.microsoft.com/beta/me/people?$search=satya
 
+#### Get messages in sent folder
+https://graph.microsoft.com/v1.0/me/mailfolders('sentItems')/messages
+
 #### List users and expand manager object
 https://graph.microsoft.com/beta/users?$expand=manager
 
