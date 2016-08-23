@@ -63,6 +63,8 @@ https://graph.microsoft.com/v1.0/me/drive/root?$expand=children($select=name),pe
 #### Search OneDrive for Word documents
 https://graph.microsoft.com/v1.0/me/drive/root/search(q='.docx')
 
+#### Get my profile picture as a 360x360px image
+https://graph.microsoft.com/beta/me/photos('360x360')/$value
 
 ## Graph explorer
 The graph explorer is open source and hosted on github at https://github.com/yiil/apiExplorer.
